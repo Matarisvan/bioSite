@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    background-color: rgba(0, 1, 219, .2);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -8,14 +9,14 @@ h1 {
     font-weight: 800;
 }
 h2 {
-
+    font-weight: 600;
 }
 h3 {
     padding: 20px;
     text-align: center;
 }
 .header {
-    
+
 }
 #navbar {
     overflow: hidden;
@@ -51,17 +52,14 @@ figcaption {
     grid-template-columns: auto auto auto;
     gap: 20px;
     padding: 20px;
-}
-.casa > div{
-    border: 2px solid red;
     background-color: rgba(250, 0, 86, 1);
+    color: white;
 }
 .uno {
     grid-area: 1, 1, 2, 2;
-    background-color: rgba(250, 0, 86, 1)
 }
 .uno > h3 {
-    color: ;
+    float: left;
 }
 .dos {
     grid-area: 1, 2, 2, 3;
@@ -74,9 +72,8 @@ figcaption {
     grid-template-rows: auto auto auto;
     gap: 20px;
     padding: 20px;
-}
-.gustos p {
-
+    background-color: rgba(0, 1, 219, 1);
+    color: rgba(255, 255, 255, 1);
 }
 .hobbyOne {
     display: grid;
@@ -134,6 +131,7 @@ figcaption {
     grid-template-columns: auto auto auto;
     gap: 2px;
     padding: 2px;
+    background-color: rgba(0, 234, 106, .8);
 }
 .persona p {
 
@@ -145,5 +143,5 @@ figcaption {
 
 }
 .aboutThree {
-    
+
 }
