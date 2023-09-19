@@ -133,15 +133,10 @@ figcaption {
     padding: 2px;
     background-color: rgba(0, 234, 106, .8);
 }
-.persona p {
-
-}
-.aboutOne {
-
-}
-.aboutTwo {
-
-}
-.aboutThree {
-
+.footer {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+    text-align: right;
 }
