@@ -109,9 +109,20 @@ h3 {
     background-color: rgba(0, 234, 106, .8);
 }
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    margin-top: 60%;
+}
+.footer a {
     float: right;
-    margin-bottom: 20px;
-    text-align: right;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(245, 141, 0, 1);
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.footer a:hover {
+    background-color: rgba(239, 238, 0, 1);
+    color: black;
+    text-decoration: underline;
 }
